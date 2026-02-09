@@ -1,0 +1,17 @@
+import { body } from 'express-validator';
+
+export const registerValidation = [
+  body('username').isString().notEmpty(),
+  body('email').isEmail(),
+  body('password').isLength({ min: 6 }),
+];
+
+export const loginValidation = [
+  body('email').isEmail(),
+  body('password').isString().notEmpty(),
+];
+
+export const updateUserValidation = [
+  body('username').optional().isString(),
+  body('email').optional().isEmail(),
+];
