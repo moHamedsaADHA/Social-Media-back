@@ -58,8 +58,13 @@ export const getMyProfile = async (req, res) => {
 };
 
 export const updateUser = async (req, res) => {
-  const updated = await User.findByIdAndUpdate(req.params.id, req.body, { new: true });
-  if (!updated) return res.status(404).json({ error: 'User not found' });
+  const updateData = { ...req.body };
+  delete updateData.userId;
+  delete updateData.isAdmin;
+
+  const user = req.resource;
+  user.set(updateData);
+  const updated = await user.save();
   return res.status(200).json(updated);
 };
 
@@ -69,15 +74,13 @@ export const logoutUser = async (req, res) => {
 };
 
 export const deleteUser = async (req, res) => {
-  const deleted = await User.findByIdAndDelete(req.params.id);
-  if (!deleted) return res.status(404).json({ error: 'User not found' });
+  await req.resource.deleteOne();
   return res.status(200).json({ message: 'User deleted successfully' });
 };
 
 export const followUser = async (req, res) => {
   const { id } = req.params; // target user id
-  const { userId } = req.body; // follower id
-  if (!userId) return res.status(400).json({ error: 'userId is required' });
+  const userId = req.userId; // follower id
 
   const target = await User.findById(id);
   const actor = await User.findById(userId);

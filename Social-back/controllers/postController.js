@@ -2,8 +2,8 @@ import Post from '../src/models/Post.js';
 import Notification from '../src/models/Notification.js';
 
 export const createPost = async (req, res) => {
-  const { userId, image, text } = req.body;
-  if (!userId) return res.status(400).json({ error: 'userId is required' });
+  const { image, text } = req.body;
+  const userId = req.userId;
 
   const newPost = new Post({ userId, image, text });
   await newPost.save();
@@ -11,7 +11,7 @@ export const createPost = async (req, res) => {
 };
 
 export const likePost = async (req, res) => {
-  const { userId } = req.body;
+  const userId = req.userId;
   const { id } = req.params;
   const post = await Post.findById(id);
   if (!post) return res.status(404).json({ error: 'Post not found' });
@@ -49,13 +49,17 @@ export const getPostById = async (req, res) => {
 };
 
 export const updatePost = async (req, res) => {
-  const updated = await Post.findByIdAndUpdate(req.params.id, req.body, { new: true });
-  if (!updated) return res.status(404).json({ error: 'Post not found' });
+  const updateData = { ...req.body };
+  delete updateData.userId;
+  delete updateData.isAdmin;
+
+  const post = req.resource;
+  post.set(updateData);
+  const updated = await post.save();
   return res.status(200).json(updated);
 };
 
 export const deletePost = async (req, res) => {
-  const deleted = await Post.findByIdAndDelete(req.params.id);
-  if (!deleted) return res.status(404).json({ error: 'Post not found' });
+  await req.resource.deleteOne();
   return res.status(200).json({ message: 'Post deleted successfully' });
 };
