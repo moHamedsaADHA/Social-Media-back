@@ -1,13 +1,9 @@
 import jwt from 'jsonwebtoken';
-import crypto from 'crypto';
 import config from '../config.js';
 import Session from '../models/Session.js';
 import User from '../models/User.js';
-import { issueAccessToken } from '../utils/generateToken.js';
 
 const FIVE_MINUTES_MS = 5 * 60 * 1000;
-
-const hashToken = (token) => crypto.createHash('sha256').update(token).digest('hex');
 
 const maybeUpdateLastActive = async (userId) => {
   const threshold = new Date(Date.now() - FIVE_MINUTES_MS);
@@ -21,19 +17,6 @@ const maybeUpdateLastActive = async (userId) => {
     },
     { $set: { lastActiveAt: new Date(), isActive: true } },
   );
-};
-
-const getRefreshTokenFromCookie = (req) => req.cookies?.refreshToken;
-
-const validateSessionFromRefreshToken = async (refreshToken) => {
-  if (!refreshToken) return null;
-
-  const tokenHash = hashToken(refreshToken);
-  return Session.findOne({
-    tokenHash,
-    isRevoked: false,
-    expiresAt: { $gt: new Date() },
-  });
 };
 
 const validateSessionById = async (sid) => {
@@ -60,7 +43,8 @@ const getAccessTokenFromHeader = (req) => {
   return auth.split(' ')[1];
 };
 
-// Optional auth middleware - attach user if token+session valid; do not accept token without session
+// Optional auth middleware - attach user if a valid access token + session is present.
+// If an access token is present but invalid/expired/session invalid -> 401
 export const optionalAuth = async (req, res, next) => {
   const token = getAccessTokenFromHeader(req);
   if (!token) return next();
@@ -68,66 +52,36 @@ export const optionalAuth = async (req, res, next) => {
   try {
     const payload = jwt.verify(token, config.JWT_SECRET);
     const { id: userId, sid } = payload || {};
-    if (!userId || !sid) return next();
+    if (!userId || !sid) return res.status(401).json({ error: 'Unauthorized' });
+
     const session = await validateSessionById(sid);
-    if (!session) return next();
+    if (!session) return res.status(401).json({ error: 'Unauthorized' });
+
     await hydrateRequestUser(req, userId, session._id);
     return next();
   } catch (err) {
-    if (err.name === 'TokenExpiredError') {
-      const refreshToken = getRefreshTokenFromCookie(req);
-      const session = await validateSessionFromRefreshToken(refreshToken);
-      if (session) {
-        const newAccessToken = issueAccessToken(session.userId.toString(), session._id.toString());
-        res.setHeader('x-access-token', newAccessToken);
-        await hydrateRequestUser(req, session.userId, session._id);
-      }
-    }
-    return next();
+    return res.status(401).json({ error: 'Unauthorized' });
   }
 };
 
-// Require auth middleware - returns 401 if missing/invalid; enforces session lookup for every request
+// Require auth middleware - strict: must present valid access token and session
 export const requireAuth = async (req, res, next) => {
   const token = getAccessTokenFromHeader(req);
-  const refreshToken = getRefreshTokenFromCookie(req);
+  if (!token) return res.status(401).json({ error: 'Unauthorized' });
 
-  if (!token && !refreshToken) return res.status(401).json({ error: 'Unauthorized' });
+  try {
+    const payload = jwt.verify(token, config.JWT_SECRET);
+    const { id: userId, sid } = payload || {};
+    if (!userId || !sid) return res.status(401).json({ error: 'Unauthorized' });
 
-  if (token) {
-    try {
-      const payload = jwt.verify(token, config.JWT_SECRET);
-      const { id: userId, sid } = payload || {};
-      if (!userId || !sid) return res.status(401).json({ error: 'Unauthorized' });
+    const session = await validateSessionById(sid);
+    if (!session) return res.status(401).json({ error: 'Unauthorized' });
 
-      const session = await validateSessionById(sid);
-      if (!session) return res.status(401).json({ message: 'Session expired, please login again' });
-
-      await hydrateRequestUser(req, userId, session._id);
-      return next();
-    } catch (err) {
-      if (err.name === 'TokenExpiredError') {
-        if (!refreshToken) return res.status(401).json({ message: 'Session expired, please login again' });
-        const session = await validateSessionFromRefreshToken(refreshToken);
-        if (!session) return res.status(401).json({ message: 'Session expired, please login again' });
-
-        const newAccessToken = issueAccessToken(session.userId.toString(), session._id.toString());
-        res.setHeader('x-access-token', newAccessToken);
-        await hydrateRequestUser(req, session.userId, session._id);
-        return next();
-      }
-      return res.status(401).json({ error: 'Unauthorized' });
-    }
+    await hydrateRequestUser(req, userId, session._id);
+    return next();
+  } catch (err) {
+    return res.status(401).json({ error: 'Unauthorized' });
   }
-
-  // No access token but refresh cookie present
-  const session = await validateSessionFromRefreshToken(refreshToken);
-  if (!session) return res.status(401).json({ message: 'Session expired, please login again' });
-
-  const newAccessToken = issueAccessToken(session.userId.toString(), session._id.toString());
-  res.setHeader('x-access-token', newAccessToken);
-  await hydrateRequestUser(req, session.userId, session._id);
-  return next();
 };
 
 export default { optionalAuth, requireAuth };
