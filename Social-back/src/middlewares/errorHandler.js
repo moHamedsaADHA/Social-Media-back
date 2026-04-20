@@ -1,3 +1,5 @@
+import logger from '../utils/logger.js';
+
 export default function errorHandler(err, req, res, next) {
   // Default to 500 unless a more specific status was set
   let statusCode = res.statusCode && res.statusCode !== 200 ? res.statusCode : 500;
@@ -23,12 +25,27 @@ export default function errorHandler(err, req, res, next) {
     return res.status(statusCode).json({ message });
   }
 
-  // Fallback
+  // Log full error detail internally
+  try {
+    logger.error(JSON.stringify({
+      message: err.message,
+      stack: err.stack,
+      path: req.originalUrl,
+      method: req.method,
+      body: req.body ? '[REDACTED]' : undefined,
+    }));
+  } catch (e) {
+    // best-effort logging
+    console.error('Error while logging error:', e);
+  }
+
+  // Fallback - never leak internals in production
   statusCode = statusCode || 500;
   res.status(statusCode);
-  res.json({
-    message: err.message || 'Internal Server Error',
-    // expose stack only in development
-    stack: process.env.NODE_ENV === 'production' ? undefined : err.stack,
-  });
+  if (process.env.NODE_ENV === 'production') {
+    return res.json({ message: 'Internal Server Error' });
+  }
+
+  // In non-production expose message/stack to help debugging
+  return res.json({ message: err.message || 'Internal Server Error', stack: err.stack });
 }
