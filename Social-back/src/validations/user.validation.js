@@ -12,6 +12,8 @@ export const loginValidation = [
 ];
 
 export const updateUserValidation = [
-  body('username').optional().isString(),
-  body('email').optional().isEmail(),
+  body('name').optional().isString(),
+  body('bio').optional().isString(),
+  body('avatar').optional().isString(),
+  body('location').optional().isString(),
 ];

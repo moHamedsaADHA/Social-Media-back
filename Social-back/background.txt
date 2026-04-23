@@ -1,0 +1,43 @@
+1️⃣ مين المسؤول عن معرفة "مين اليوزر"؟
+Request
+  ↓
+JWT Token
+  ↓
+auth middleware
+  ↓
+req.userId
+  ↓
+Controller
+  ↓
+services.....
+  ↓
+DB (User / Post)
+--------
+من التحسينات اللي عملتها الاسبوع دا 
+1-
+ هو تقويه الauthorization وفصلها عن الكونترولر وعن الاوث فايل اللي في المديلوير 
+----
+2-
+"المرحلة 1 (الأسبوع الأول) - Security
+├── حل مشكلة dotenv loading order
+├── حماية Notifications routes
+├── حماية Media upload
+├── إضافة Helmet
+└── تضييق CORS
+
+المرحلة 2 (الأسبوع التاني) - Correctness
+├── إصلاح getMyProfile
+├── إزالة deprecated Mongoose options
+├── Whitelist fields في كل update controller
+└── منع self-follow
+
+المرحلة 3 (الأسبوع التالت) - Scalability
+├── إضافة Pagination
+├── إضافة Database Indexes
+└── Structured Logging (Winston/Pino)
+
+المرحلة 4 - Quality
+├── README + .env.example
+├── إضافة Jest + Supertest لـ package.json
+└── Cascade delete logic"
+--------

@@ -1,6 +1,15 @@
-import Comment from '../src/models/comment.js';
+import Comment from '../src/models/Comment.js';
 import Notification from '../src/models/Notification.js';
 import Post from '../src/models/Post.js';
+// ده بيتطبق فقط على دالة getCommentsByPost，
+//  يعني لما تطلب تجيب الكومنتات اللي على بوست معين:
+// الـ API هيرجّعلك 10 كومنتات في كل صفحة افتراضيًا.
+
+const getPagination = (query) => {
+  const page = Math.max(parseInt(query.page, 10) || 1, 1);
+  const limit = Math.min(Math.max(parseInt(query.limit, 10) || 10, 1), 50);
+  return { page, limit, skip: (page - 1) * limit };
+};
 
 export const createComment = async (req, res) => {
   const { postId, text } = req.body;
@@ -27,8 +36,19 @@ export const createComment = async (req, res) => {
 };
 
 export const getCommentsByPost = async (req, res) => {
-  const comments = await Comment.find({ postId: req.params.postId }).sort({ createdAt: -1 });
-  return res.status(200).json(comments);
+  const { page, limit, skip } = getPagination(req.query);
+  const filter = { postId: req.params.postId };
+  const [totalCount, comments] = await Promise.all([
+    Comment.countDocuments(filter),
+    Comment.find(filter).sort({ createdAt: -1 }).skip(skip).limit(limit),
+  ]);
+
+  return res.status(200).json({
+    data: comments,
+    page,
+    totalPages: Math.ceil(totalCount / limit) || 1,
+    totalCount,
+  });
 };
 
 export const getCommentById = async (req, res) => {
@@ -38,12 +58,18 @@ export const getCommentById = async (req, res) => {
 };
 
 export const updateComment = async (req, res) => {
-  const updateData = { ...req.body };
-  delete updateData.userId;
-  delete updateData.isAdmin;
+  const forbiddenFields = ['isAdmin', 'followers', 'following', 'likes', 'commentsCount', 'role', 'password', 'userId'];
+  const hasForbiddenFields = forbiddenFields.some((field) => Object.prototype.hasOwnProperty.call(req.body, field));
+  if (hasForbiddenFields) {
+    return res.status(400).json({ error: 'Attempt to update restricted fields' });
+  }
 
   const comment = req.resource;
-  comment.set(updateData);
+  const { text } = req.body;
+  if (text !== undefined) {
+    comment.text = text;
+  }
+
   const updated = await comment.save();
   return res.status(200).json(updated);
 };

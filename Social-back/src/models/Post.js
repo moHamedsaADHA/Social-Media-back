@@ -1,4 +1,3 @@
-import { text } from "express";
 import mongoose from "mongoose";
 
 const postSchema = new mongoose.Schema({
@@ -14,6 +13,11 @@ const postSchema = new mongoose.Schema({
     text: {
         type: String,
     },
+    visibility: {
+        type: String,
+        enum: ['public', 'private', 'friends'],
+        default: 'public',
+    },
     // [] ==> because a post can have multiple likes from different users
     likes: [{
         type: mongoose.Schema.Types.ObjectId,
@@ -25,5 +29,9 @@ const postSchema = new mongoose.Schema({
         default: 0,
     },
 }, { timestamps: true })    
+
+postSchema.index({ userId: 1, createdAt: -1 });
+postSchema.index({ author: 1, createdAt: -1 }, { sparse: true });
+postSchema.index({ createdAt: -1 });
 
 export default mongoose.model('Post', postSchema);

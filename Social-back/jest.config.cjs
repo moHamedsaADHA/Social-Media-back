@@ -1,4 +1,7 @@
 module.exports = {
   testEnvironment: 'node',
-  transform: {},
+  setupFiles: ['<rootDir>/tests/setup.cjs'],
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+  },
 };

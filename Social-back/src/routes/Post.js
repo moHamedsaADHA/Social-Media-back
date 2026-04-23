@@ -11,15 +11,14 @@ import {
 } from '../../controllers/postController.js';
 import validateRequest from '../middlewares/validateRequest.js';
 import { createPostValidation, updatePostValidation } from '../../post.validation.js';
-import { cacheMiddleware } from '../utils/cache.js';
 import { requireAuth } from '../middlewares/auth.js';
 import { ownerOrAdmin } from '../middlewares/authorize.js';
 
 const router = express.Router();
 
 router.post('/', requireAuth, createPostValidation, validateRequest, asyncHandler(createPost));
-router.get('/', cacheMiddleware(30 * 1000), asyncHandler(getPosts));
-router.get('/:id', cacheMiddleware(30 * 1000), asyncHandler(getPostById));
+router.get('/', asyncHandler(getPosts));
+router.get('/:id', asyncHandler(getPostById));
 router.post('/:id/like', requireAuth, asyncHandler(likePost));
 router.put(
     '/:id',

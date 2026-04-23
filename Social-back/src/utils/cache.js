@@ -1,32 +1,31 @@
-const cache = new Map();
+const store = new Map();
 
-export const getFromCache = (key) => {
-  const item = cache.get(key);
-  if (!item) return null;
-  const { expiresAt, value } = item;
-  if (expiresAt && Date.now() > expiresAt) {
-    cache.delete(key);
-    return null;
-  }
-  return value;
-};
-
-export const setCache = (key, value, ttlMs = 60 * 1000) => {
-  cache.set(key, { value, expiresAt: ttlMs ? Date.now() + ttlMs : null });
-};
-
-export const cacheMiddleware = (ttlMs = 60000) => (req, res, next) => {
-  if (req.method !== 'GET') return next();
-  const key = `${req.originalUrl}`;
-  const cached = getFromCache(key);
-  if (cached) return res.status(200).json(cached);
-
-  const originalJson = res.json.bind(res);
-  res.json = (body) => {
-    setCache(key, body, ttlMs);
-    return originalJson(body);
-  };
-  next();
+export const cache = {
+  set(key, value, ttlSeconds) {
+    store.set(key, { value, expiresAt: Date.now() + ttlSeconds * 1000 });
+  },
+  get(key) {
+    const entry = store.get(key);
+    if (!entry) return null;
+    if (Date.now() > entry.expiresAt) {
+      store.delete(key);
+      return null;
+    }
+    return entry.value;
+  },
+  del(key) {
+    store.delete(key);
+  },
+  delByPrefix(prefix) {
+    for (const key of store.keys()) {
+      if (key.startsWith(prefix)) {
+        store.delete(key);
+      }
+    }
+  },
+  clear() {
+    store.clear();
+  },
 };
 
 export default cache;

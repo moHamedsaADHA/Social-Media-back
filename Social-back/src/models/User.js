@@ -1,6 +1,9 @@
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
+    name: {
+        type: String,
+    },
     username: {
         type: String,
         required: true,
@@ -18,8 +21,13 @@ const userSchema = new mongoose.Schema({
     avatar: {
         type: String,
         default: 'https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y',
-    }
-    ,
+    },
+    bio: {
+        type: String,
+    },
+    location: {
+        type: String,
+    },
     followers: [
         {
             type: mongoose.Schema.Types.ObjectId,
@@ -44,6 +52,9 @@ const userSchema = new mongoose.Schema({
         type: Date,
         default: Date.now,
     },
-})
+}, { timestamps: true })
+
+userSchema.index({ username: 1 });
+userSchema.index({ lastActiveAt: -1 });
 
 export default mongoose.model('User', userSchema);

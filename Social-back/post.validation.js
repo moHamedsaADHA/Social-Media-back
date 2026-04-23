@@ -5,5 +5,7 @@ export const createPostValidation = [
 ];
 
 export const updatePostValidation = [
-  body('text').optional().isString(),
+  body('content').optional().isString(),
+  body('image').optional().isString(),
+  body('visibility').optional().isIn(['public', 'private', 'friends']),
 ];

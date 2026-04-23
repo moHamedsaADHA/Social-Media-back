@@ -25,12 +25,10 @@ const commentSchema = new mongoose.Schema({
             type: String,
             required: true,
         },
-        createdAt: { 
-            type: Date, 
-            default: Date.now,
-        },
     }],
-    createdAt: { type: Date, default: Date.now },
 }, { timestamps: true })
+
+commentSchema.index({ postId: 1, createdAt: -1 });
+commentSchema.index({ post: 1, createdAt: -1 }, { sparse: true });
 
 export default mongoose.model('Comment', commentSchema);
