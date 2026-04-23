@@ -1,0 +1,268 @@
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:34:04.876Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:34:24.040Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:34:50.982Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:34:50.993Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:34:56.887Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:34:56.887Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:35:36.996Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:35:36.997Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:35:47.746Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:35:47.747Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:35:55.977Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:35:55.974Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:36:24.566Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:36:24.579Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:36:30.227Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:36:30.248Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:36:44.994Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:37:39.805Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-11T20:43:41.215Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-12T20:04:37.149Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-17T23:56:53.021Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-17T23:57:43.776Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T20:02:39.212Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T20:44:22.260Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:10:39.610Z"}
+{"level":"error","message":"MongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:10:52.628Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:11:05.809Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:11:05.812Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:11:10.820Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:11:12.760Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:11:12.764Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:11:17.789Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:11:22.529Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:11:22.532Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:11:27.543Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:11:34.100Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:11:34.105Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:11:39.123Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:11:47.510Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:11:47.513Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:11:52.522Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:11:58.112Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:11:58.115Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:12:03.136Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:12:09.371Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:12:09.374Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:12:14.387Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:13:03.621Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:13:03.621Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:13:03.625Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:13:03.624Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:13:08.639Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:13:08.640Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0 -> querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:13:08.642Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:13:08.645Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0 -> querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:13:08.640Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:13:08.646Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:14:52.933Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:14:52.938Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:14:53.265Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:14:53.268Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:14:57.952Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0 -> querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:14:57.953Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:14:57.956Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:14:58.292Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0 -> querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:14:58.293Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:14:58.296Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0: querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net","timestamp":"2026-04-18T21:20:39.760Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-18T21:20:39.763Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:20:44.775Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb+srv://mohamedsaad2827822772_db_user:oLemjK7TDyFCzZQd@cluster0.wg6jduv.mongodb.net/?appName=Cluster0 -> querySrv ENOTFOUND _mongodb._tcp.cluster0.wg6jduv.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:20:44.776Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:20:44.778Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:36:48.128Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:36:48.131Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-18T21:36:48.132Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:36:48.135Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:36:48.394Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:36:48.398Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-18T21:36:48.398Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:36:48.400Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:40:20.153Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:40:20.156Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-18T21:40:20.156Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:40:20.159Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:40:20.358Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:40:20.362Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-18T21:40:20.363Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:40:20.366Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:40:52.315Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T21:40:52.320Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-18T21:40:52.321Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T21:40:52.325Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T22:33:38.091Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T22:33:38.093Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-18T22:33:38.094Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T22:33:38.096Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T22:37:58.609Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-18T22:37:58.611Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-18T22:37:58.612Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-18T22:37:58.615Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T10:54:35.641Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T10:54:35.645Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T10:54:35.646Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-19T10:54:35.649Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T10:55:39.388Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: Unable to connect to MongoDB. Attempts: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T10:55:39.395Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T10:55:39.395Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-19T10:55:39.400Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:45:06.325Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:45:06.328Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T14:45:06.329Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-19T14:45:06.332Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:46:16.021Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:46:16.027Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T14:46:16.028Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-19T14:46:16.032Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:48:47.574Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:48:47.578Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T14:48:47.578Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-19T14:48:47.582Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:49:09.560Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:49:09.563Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T14:49:09.564Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-19T14:49:09.567Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:49:10.250Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T14:49:10.254Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T14:49:10.254Z"}
+{"level":"info","message":"Server running on port 3000 — DB connected: false","timestamp":"2026-04-19T14:49:10.257Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-19T15:01:45.173Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-19T15:01:45.175Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T15:01:50.198Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T15:01:50.199Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T15:01:50.199Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-19T15:01:50.203Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-19T15:07:37.963Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-19T15:07:37.966Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T15:07:42.975Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T15:07:42.976Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T15:07:42.976Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-19T15:07:42.979Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-19T15:14:40.544Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-19T15:14:40.548Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T15:14:45.564Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T15:14:45.565Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T15:14:45.565Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-19T15:14:45.570Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-19T15:14:52.807Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-19T15:14:52.811Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T15:14:57.825Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-19T15:14:57.826Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-19T15:14:57.827Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-19T15:14:57.830Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T09:07:44.923Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T09:07:44.927Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T09:07:47.602Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T09:07:47.615Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:07:49.951Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:07:49.953Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T09:07:49.954Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T09:07:49.971Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:07:52.662Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:07:52.663Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T09:07:52.664Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T09:07:52.672Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T09:19:10.933Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T09:19:10.935Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:19:15.954Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:19:15.955Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T09:19:15.955Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T09:19:15.958Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T09:20:17.488Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T09:20:17.493Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:20:22.510Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:20:22.511Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T09:20:22.511Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T09:20:22.514Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T09:33:20.208Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T09:33:20.212Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:33:25.239Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:33:25.241Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T09:33:25.242Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T09:33:25.255Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T09:43:12.894Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T09:43:12.898Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:43:17.921Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:43:17.922Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T09:43:17.922Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T09:43:17.926Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T09:43:35.877Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T09:43:35.880Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:43:40.893Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:43:40.894Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T09:43:40.894Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T09:43:40.897Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T09:47:24.316Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T09:47:24.324Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:47:29.358Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T09:47:29.358Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T09:47:29.359Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T09:47:29.362Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T10:58:07.948Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T10:58:07.954Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T10:58:12.975Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-20T10:58:12.977Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-20T10:58:12.978Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-20T10:58:12.988Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-20T14:43:36.241Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-20T14:43:36.248Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T14:13:57.239Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T14:13:57.243Z"}
+{"level":"info","message":"Connected to MongoDB: mongodb://127.0.0.1:27017/social-app","timestamp":"2026-04-23T14:13:57.293Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: true","timestamp":"2026-04-23T14:13:57.299Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T14:15:14.939Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T14:15:14.943Z"}
+{"level":"info","message":"Connected to MongoDB: mongodb://127.0.0.1:27017/social-app","timestamp":"2026-04-23T14:15:14.971Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: true","timestamp":"2026-04-23T14:15:14.976Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T14:17:29.492Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T14:17:29.495Z"}
+{"level":"info","message":"Connected to MongoDB: mongodb://127.0.0.1:27017/social-app","timestamp":"2026-04-23T14:17:29.524Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: true","timestamp":"2026-04-23T14:17:29.530Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T14:18:29.964Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T14:18:29.968Z"}
+{"level":"info","message":"Connected to MongoDB: mongodb://127.0.0.1:27017/social-app","timestamp":"2026-04-23T14:18:29.993Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: true","timestamp":"2026-04-23T14:18:29.997Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T14:37:21.197Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T14:37:21.199Z"}
+{"level":"info","message":"Connected to MongoDB: mongodb://127.0.0.1:27017/social-app","timestamp":"2026-04-23T14:37:21.220Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: true","timestamp":"2026-04-23T14:37:21.224Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T14:39:12.762Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T14:39:12.765Z"}
+{"level":"info","message":"Connected to MongoDB: mongodb://127.0.0.1:27017/social-app","timestamp":"2026-04-23T14:39:12.792Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: true","timestamp":"2026-04-23T14:39:12.796Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T17:28:31.880Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T17:28:31.884Z"}
+{"level":"info","message":"Connected to MongoDB: mongodb://127.0.0.1:27017/social-app","timestamp":"2026-04-23T17:28:31.911Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: true","timestamp":"2026-04-23T17:28:31.916Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T19:43:13.000Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T19:43:13.003Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T19:43:18.027Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T19:43:18.028Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-23T19:43:18.028Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-23T19:43:18.032Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T21:19:35.524Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T21:19:35.528Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T21:19:40.549Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T21:19:40.550Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-23T21:19:40.550Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-23T21:19:40.553Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T21:19:41.849Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T21:19:41.852Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T21:19:46.864Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T21:19:46.865Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-23T21:19:46.865Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-23T21:19:46.868Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T21:29:43.705Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T21:29:43.704Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T21:29:43.708Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T21:29:43.709Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T21:29:48.722Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb://127.0.0.1:27017/social-app: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T21:29:48.721Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T21:29:48.723Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-23T21:29:48.723Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-23T21:29:48.725Z"}
+{"level":"error","message":"Startup: MongoDB connection failed: mongodb+srv://username:password@cluster.example.mongodb.net/social-app -> querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net; mongodb://127.0.0.1:27017/social-app -> connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-04-23T21:29:48.722Z"}
+{"level":"warn","message":"Startup: MongoDB not connected; continuing in development mode (some routes may fail).","timestamp":"2026-04-23T21:29:48.722Z"}
+{"level":"info","message":"Server running on port 5000 — DB connected: false","timestamp":"2026-04-23T21:29:48.725Z"}
+{"level":"warn","message":"MongoDB connection attempt failed for mongodb+srv://username:password@cluster.example.mongodb.net/social-app: querySrv ENOTFOUND _mongodb._tcp.cluster.example.mongodb.net","timestamp":"2026-04-23T21:30:44.734Z"}
+{"level":"info","message":"Attempting fallback MongoDB URI...","timestamp":"2026-04-23T21:30:44.737Z"}
