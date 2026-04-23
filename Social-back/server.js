@@ -1,4 +1,3 @@
-import './scripts/ensureEnv.js';
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
@@ -63,7 +62,7 @@ async function startServer() {
 		await connectDB();
 	}
 
-	// Load config after ensureEnv has potentially created .env
+	// Load config after dotenv has populated environment variables
 	const { default: config } = await import('./src/config.js');
 	const PORT = config.PORT || 5000;
 
